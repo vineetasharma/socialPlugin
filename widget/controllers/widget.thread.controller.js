@@ -16,7 +16,7 @@
             Thread.imageName = '';
             Thread.post = {};
             Thread.showImageLoader = true;
-            buildfire.history.push('Event', { elementToShow: 'Event' });
+            buildfire.history.push('Thread', { elementToShow: 'Thread' });
             var _receivePushNotification;
             Thread.getFollowingStatus = function () {
                 return (typeof _receivePushNotification !== 'undefined') ? (_receivePushNotification ? THREAD_STATUS.FOLLOWING : THREAD_STATUS.FOLLOW) : '';
